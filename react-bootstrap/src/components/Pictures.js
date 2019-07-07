@@ -3,18 +3,27 @@ import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import Lightbox from "react-image-lightbox";
 
 import "./Lightbox.css";
-import image1 from '../assets/1.jpeg';
-import image2 from '../assets/2.jpg'
+// import image1 from '../assets/1.jpeg';
+// import image2 from '../assets/2.jpg';
 
 class Pictures extends Component {
     state = {
         photoIndex: 0,
         isOpen: false,
         images: [
-            image1,
-            image2,
+            // image1,
+            // image2,
+            'http://localhost:3000/images/1.jpg',
+            'http://localhost:3000/images/2.jpg',
             'http://localhost:3000/images/3.jpg',
-            'http://localhost:3000/images/4.jpg'
+            'http://localhost:3000/images/4.jpg',
+            'http://localhost:3000/images/5.jpg',
+            'http://localhost:3000/images/6.png',
+            'http://localhost:3000/images/7.png',
+            'http://localhost:3000/images/8.jpg',
+            'http://localhost:3000/images/9.jpg',
+            
+            
         ]
     }
 

@@ -1,81 +1,129 @@
 import React from 'react';
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
 "mdbreact";
 import styled from 'styled-components';
+import Carousel from "react-bootstrap/Carousel"
 
 
 const Styles = styled.div`
 
-.slider1{
-  height: 700px;
-  width: 600px;
-  margin-top:200px;
+ .s{
+
+  margin: 0 auto;
+   width:800px;
+   height:500px;
+
 }
 
-.d-block.w-100{
-  height:700px;
-  width:800px;
-}
 
-.pic{
-  height:700px;
-  width:800px;
-}
+// @media only screen 
+//   and (min-device-width: 768px) 
+//   and (max-device-width: 1024px) 
+//   and (-webkit-min-device-pixel-ratio: 1) {
+//     .s{
+//       margin: 0 auto;
 
-.pic2{
-  height:700px;
-  width:800px;
-}
 
-.pic3{
-  height:700px;
-  width:800px;
-}
+//     }
+
+// }
+// @media screen 
+//   and (device-width: 360px) 
+//   and (device-height: 640px) 
+//   and (-webkit-device-pixel-ratio: 2) {
+//    s.{
+//     margin: 0 auto;
+//     width:360px;
+
+//    }
+
+// }
+ 
+
+
 `
 
 const CarouselPage = () => {
   return (
     <Styles>
-    <MDBContainer className="slider1">
-      <MDBCarousel
-        activeItem={1}
-        length={3}
-        showControls={true}
-        showIndicators={true}
-        className="z-depth-1"
-      >
-        <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
-            <MDBView>
-              <img
-                className="pic"
-                src='http://localhost:3000/images/2.jpg'
-                alt="First slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="2">
-            <MDBView>
-              <img
-                className="pic2"
-                src='http://localhost:3000/images/3.jpg'
-                alt="Second slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="3">
-            <MDBView>
-              <img
-                className="pic3"
-                src='http://localhost:3000/images/4.jpg'
-                alt="Third slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-        </MDBCarouselInner>
-      </MDBCarousel>
-    </MDBContainer>
-    </Styles>
+      <div className="s">
+      <Carousel className="s1">
+  <Carousel.Item className="slider">
+    <img
+      className="d-block w-100"
+      src= 'http://localhost:3000/images/2.png'
+      alt="First slide"
+    />
+    <Carousel.Caption className="c"> 
+    
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item className="slider">
+    <img
+      className="d-block w-100"
+      src='http://localhost:3000/images/9.jpg'
+
+      alt="Third slide"
+    />
+
+    <Carousel.Caption className="c">
+    
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item className="slider">
+    <img
+      className="d-block w-100"
+      src='http://localhost:3000/images/3.png'
+      alt="Third slide"
+    />
+
+    <Carousel.Caption className="c">
+     
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+</div>
+</Styles>
+    // // {/* <MDBContainer className="slider1">
+    //   <MDBCarousel className="2"
+    //     activeItem={1}
+    //     length={3}
+    //     showControls={true}
+    //     showIndicators={true}
+    //     className="z-depth-1"
+    //   >
+    //     <MDBCarouselInner>
+    //       <MDBCarouselItem itemId="1">
+    //         <MDBView className="z">
+    //           <img
+    //             className="pic"
+    //             src='http://localhost:3000/images/5.jpg'
+    //             alt="First slide"
+    //           />
+    //         </MDBView>
+    //       </MDBCarouselItem>
+    //       <MDBCarouselItem itemId="2">
+    //         <MDBView>
+    //           <img
+    //             className="pic2"
+    //             src='http://localhost:3000/images/6.png'
+    //             alt="Second slide"
+    //           />
+    //         </MDBView>
+    //       </MDBCarouselItem>
+    //       <MDBCarouselItem itemId="3">
+    //         <MDBView>
+    //           <img
+    //             className="pic3"
+    //             src='http://localhost:3000/images/8.jpg'
+    //             alt="Third slide"
+    //           />
+    //         </MDBView>
+    //       </MDBCarouselItem>
+    //     </MDBCarouselInner>
+    //   </MDBCarousel>
+    // </MDBContainer> */}
+    
   );
 }
 

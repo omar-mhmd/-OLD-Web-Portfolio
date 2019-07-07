@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react";
+import ContactForm from './components/ContactForm';
 
-export const Contact = () => (
+export  const Contact = () => (
 
-        <div>
-          <h2>Contact</h2> 
-          <p>Kenny</p>
-          <p>Cartman</p>
-          <p>Kyle</p>
-
-        </div>
-    )
+  <div>
+    <ContactForm />
+  </div>
+)
