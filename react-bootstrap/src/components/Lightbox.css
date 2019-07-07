@@ -1,5 +1,10 @@
 /* Pictures */
 
+
+img.img-fluid{
+    cursor: pointer;
+}
+
 @-webkit-keyframes closeWindow {
     0% {
         opacity: 1;

@@ -6,7 +6,6 @@ export const Gallery = () => (
 
     <div>
         <Tabs />
-        <Pictures />
     </div>
 
 
