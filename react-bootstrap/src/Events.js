@@ -7,7 +7,7 @@ import CardFront from './components/CardFront';
 
 export const Events = () => (
 <div>
-     <div>
+   <div>
            <CardFront/>
            </div> 
            <div>

@@ -32,9 +32,19 @@
   }
 } */
 
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media all and (min-height: 800px) {
+  #footer {
+    height: 430px;
+  }
+  .site-contents {
+    min-height: calc(100vh - 430px)
+  }
 }
  
 .tabs label {
