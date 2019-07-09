@@ -8,11 +8,13 @@ import Carousel from "react-bootstrap/Carousel"
 const Styles = styled.div`
 
  .s{
-
-  margin: 0 auto;
+  // text:align :center;
+  margin: 150px auto;
    width:75%;
     max-width: 800px;
-   height:500px;
+   height:600px;
+   z-index: -999  ;
+
 
 }
 .s img {
@@ -50,6 +52,7 @@ const Styles = styled.div`
 const CarouselPage = () => {
   return (
     <Styles>
+
       <div className="s">
       <Carousel className="s1">
   <Carousel.Item className="slider">

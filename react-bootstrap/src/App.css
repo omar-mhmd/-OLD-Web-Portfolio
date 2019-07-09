@@ -150,16 +150,13 @@ div.desc {
     background-image: url('http://localhost:3000/images/skulls.png'),linear-gradient(to right,#A788A8, #6F3C89, #306493,#1B2B42) ;
   }
 
-  
-/* 
 
-  .Facebook {
-    position: relative;
-    float: right;
-    font-size: 30px;
+.tab{
+  margin: 100px;
 }
 
-.Instagram {
-  position: relative;
-  float: right;
-} */
+.sc-bwzfXH {
+  margin-top: 250px;
+  
+}
+

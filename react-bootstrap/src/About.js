@@ -8,7 +8,7 @@ const Styles = styled.div `
 
 .about {
   width: 60%;
-  margin: auto;
+  margin:auto;
   text-align: justify;
   border-radius: 20px;
   'background-image: url('http://localhost:3000/images/skulls.png'),
@@ -16,9 +16,18 @@ const Styles = styled.div `
   color: white;
   box-shadow: 5px 5px 20px 5px black;
   padding: 30px;
-  margin-top: 50px;
-  margin-bottom:50px;
-}
+  margin-top: 150px;
+  margin-bottom:50px;}
+
+  .w-100{
+    // margin-top:-30px;
+  }
+  .aboutpic{
+    margin-bottom:20px;
+    
+  }
+
+
 
 .about h3 {
   border-bottom: 3px solid orange;

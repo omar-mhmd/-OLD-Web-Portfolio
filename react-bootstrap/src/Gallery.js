@@ -4,7 +4,8 @@ import Pictures from './components/Pictures';
 
 export const Gallery = () => (
 
-    <div>
+    <div className="tab">
+        
         <Tabs />
     </div>
 
