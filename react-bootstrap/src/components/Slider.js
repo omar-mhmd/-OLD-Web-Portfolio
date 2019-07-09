@@ -10,9 +10,13 @@ const Styles = styled.div`
  .s{
 
   margin: 0 auto;
-   width:800px;
+   width:75%;
+    max-width: 800px;
    height:500px;
 
+}
+.s img {
+  max-height: 500px !important;
 }
 
 

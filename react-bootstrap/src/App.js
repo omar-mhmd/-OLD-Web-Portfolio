@@ -23,6 +23,7 @@ class App extends Component {
       <React.Fragment>
         {/* <Layout> */}
           <Router>
+            <div class="site-contents">
             <NavigationBar />
             <Switch>
               <Route exact path="/" component={Home} />
@@ -32,6 +33,7 @@ class App extends Component {
               <Route path="/Contact" component={Contact} />
               <Route path="/NoMatch" component={NoMatch} />
             </Switch>
+            </div>
             <FooterPage/> 
           </Router>
         {/* </Layout> */}

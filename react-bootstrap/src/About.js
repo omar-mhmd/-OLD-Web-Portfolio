@@ -7,16 +7,17 @@ import styled from 'styled-components';
 const Styles = styled.div `
 
 .about {
-  width: 90%;
+  width: 60%;
   margin: auto;
   text-align: justify;
   border-radius: 20px;
-  background-image: url("skulls.png"),
+  'background-image: url('http://localhost:3000/images/skulls.png'),
     linear-gradient(to left, #a788a8, #6f3c89, #306493, #1b2b42);
   color: white;
   box-shadow: 5px 5px 20px 5px black;
   padding: 30px;
   margin-top: 50px;
+  margin-bottom:50px;
 }
 
 .about h3 {
