@@ -9,6 +9,13 @@ const Styles = styled.div `
 div.tab{
   background-color: transparent;
 }
+div.tabs{
+   margin: 150px auto;
+
+}
+.tab {
+  margin: 100px auto;
+}
 
 `
 

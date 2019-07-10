@@ -19,9 +19,7 @@ const Styles = styled.div `
   margin-top: 150px;
   margin-bottom:50px;}
 
-  .w-100{
-    // margin-top:-30px;
-  }
+
   .aboutpic{
     margin-bottom:20px;
     

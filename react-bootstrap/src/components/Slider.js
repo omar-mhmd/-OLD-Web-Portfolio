@@ -12,7 +12,7 @@ const Styles = styled.div`
   margin: 150px auto;
    width:75%;
     max-width: 800px;
-   height:600px;
+   height:100%;
    z-index: -999  ;
 
 

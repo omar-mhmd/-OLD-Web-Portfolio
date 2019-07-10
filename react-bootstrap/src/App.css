@@ -155,8 +155,9 @@ div.desc {
   margin: 100px;
 }
 
-.sc-bwzfXH {
-  margin-top: 250px;
-  
+.site-contents .tab {
+  margin: 100px auto;
 }
+.hero{
+    background-image: url('http://localhost:3000/images/skulls.png');}
 
