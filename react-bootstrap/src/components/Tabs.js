@@ -14,6 +14,20 @@ div.tab{
 
 
 export default class Tabs extends React.Component {
+  state = {
+    Videos:[]
+}
+
+
+async componentDidMount(){
+
+    const response = await fetch('http://localhost:8000/videos/read');
+    const result = await response.json();
+    const Videos = result.data;
+    this.setState({Videos})
+  
+  
+  }
     render() {
 
         return (
@@ -27,7 +41,10 @@ export default class Tabs extends React.Component {
             <input type="radio" name="tabs" id="tabtwo" />
             <label htmlFor="tabtwo">Videos</label>
             <div className="tab">
-            <Vvv/>
+            {this.state.Videos.map(p => (
+                
+                <Vvv Source={p.Source}/>  ))}
+            
             </div>
            
           </div>

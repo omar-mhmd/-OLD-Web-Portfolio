@@ -49,7 +49,7 @@ class Pictures extends Component {
                     </MDBRow>
                 </div>
                 {
-                    console.log('image' ,images[photoIndex])
+                    console.log('image', images[photoIndex])
                 }
                 {isOpen && (
                     <Lightbox
