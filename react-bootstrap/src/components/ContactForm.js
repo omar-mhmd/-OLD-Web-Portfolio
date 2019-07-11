@@ -106,31 +106,40 @@ line-height: 35px;
   padding: 10px;
   -webkit-animation: icon3d 200ms 10;
   animation: icon3d 200ms 10;
-  color: black;}
+  color: white;
+}
   
-.icon-3d:hover {
+.icon-3d:hover { 
   font-size:70px;
   -webkit-animation: icon3d 200ms infinite;
-  animation: icon3d 200ms infinite;
+  animation: icon3d 1500ms infinite;
 }
 
 @keyframes icon3d {
   0% {
-    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+    text-shadow: 5px 4px red, -5px -6px green;
   }
   25% {
-    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+    text-shadow: -5px -6px red, 5px 4px green;
   }
   50% {
-    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+    text-shadow: 5px -4px red, -8px 4px green;
   }
   75% {
-    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+    text-shadow: -8px -4px red, -5px -4px green;
   }
   100% {
-    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+    text-shadow: -5px 0 red, 5px -4px green;
   }
 }
+  i.icon-3d{
+   font-size:50px;
+   
+}
+ 
+// i.fa.fa-facebook {
+//   font-size: 50px;
+// }
 
 `
 
@@ -149,34 +158,16 @@ const Contact1 = () => (
 </h3>
 <MDBContainer>
  <div class="flex-center"> 
-<a href="https://www.facebook.com/ivandebsartist/">
-<i class="fa fa-facebook fa-4x icon-3d"> </i></a>
-<a href="https://www.instagram.com/ivan.debs/">
+ {/* <a href="https://www.facebook.com/ivandebsartist">
+ <img src="https://img.icons8.com/color/48/000000/facebook-circled.png"/> */}
+ {/* </a> */}
+ <a className="k" href="https://www.facebook.com/ivandebsartist/" target="_blank">
+ <i class="fa fa-facebook fa-x icon-3d"> </i></a>
+<a className="k" href="https://www.instagram.com/ivan.debs/" target="_blank">
   <i class="fa fa-instagram fa-4x icon-3d"></i></a>
-  </div>
+  </div> 
   </MDBContainer>
-{/* 
- <div className="social">
-                           <ul className="text-center  list-unstyled list-inline social text-center">
-                          
-                            <li className="list-inline-item"><a href="https://www.facebook.com/ivandebsartist/?epa=SEARCH_BOX();"><i className="fa fa-facebook" /></a></li>
-                            <li className="list-inline-item"><a href="https://www.instagram.com/ivan.debs/?epa=SEARCH_BOX();"><i className="fa fa-instagram" /></a></li>
-                          </ul>
-                          </div> */}
-{/* <MDBContainer className="text-center">
-<a className="aaa" href="https://www.facebook.com/ivandebsartist/" target="_blank">
-  <MDBBtn  size="lg" tag="a" floating social="fb">
-        <MDBIcon className="m" fab icon="facebook-f" />
-       */}
-        
-      {/* </MDBBtn>
-      </a>
-      <a  className="aaa" href="https://www.instagram.com/ivan.debs/" target="_blank">
-      <MDBBtn size="lg" tag="a" floating social="ins">
-        <MDBIcon className="m" fab icon="instagram" />
-      </MDBBtn>
-      </a>
-      </MDBContainer> */}
+
 
             <Form>
               <Form.Group as={Col} controlId="formGridEmail">
