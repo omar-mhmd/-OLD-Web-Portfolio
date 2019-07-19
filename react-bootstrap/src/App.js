@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { About } from './About';
 import { Gallery } from './Gallery';
-import { Events } from './Events';
+import  Events  from './Events';
 import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
+import Eventsdetails from './Eventdetails'
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import  FooterPage from './components/Footer';
@@ -32,6 +33,7 @@ class App extends Component {
               <Route path="/Events" component={Events} />
               <Route path="/Contact" component={Contact} />
               <Route path="/NoMatch" component={NoMatch} />
+              <Route path="/Eventdetails" component={Eventsdetails} />
             </Switch>
             </div>
             <FooterPage/> 

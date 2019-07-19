@@ -6,7 +6,9 @@ import Carousel from "react-bootstrap/Carousel"
 
 
 const Styles = styled.div`
-
+li{
+  button:type:radio;
+}
  .s{
   // text:align :center;
   margin: 150px auto;

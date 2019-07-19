@@ -180,70 +180,68 @@ color:white
 `
 const FooterPage = () => {
   return (<div id="footer-container">
-            <Styles>
+    <Styles>
 
-              {/* Footer */}
-              <section id="footer">
-                <div className="container">
-                  <div className="row text-center text-xs-center text-sm-center text-md-center">
-                    <div className="text-center col-xs-12 col-sm-4 col-md-4">
-                    
-                  <Link to='/'><img href="/home" src={logoImage} className={'logo-image'} /></Link>
-                  <p className="pp">Welcome to the illustrated imaginary world of Ivan Debs. Keep up to date with his tribal influenced style images.</p>    
-                    
-                    </div>
-                    <div className=" text-center col-xs-12 col-sm-4 col-md-4">
-                      <h2 className="N">Navigation</h2>
-                      <ul className="list-unstyled quick-links">
-                        <li>< Link to="/">Home</ Link><i className="fa fa-angle-double-right" /></li>
-                        <li>< Link to="/about">About</ Link><i className="fa fa-angle-double-right" /></li>
-                        <li> <  Link to="/gallery">Gallery</  Link><i className="fa fa-angle-double-right" /></li>
-                        <li>< Link to="/events">Events</ Link><i className="fa fa-angle-double-right" /></li>
-                        <li>< Link to="/contact">Contact</ Link><i className="fa fa-angle-double-right" /></li>
-                      </ul>
-                    </div>
-                      <div className="text-center col-xs-12 col-sm-4 col-md-4 ">
-                      <h2 className="N"> Contact Me</h2>
-                      <p className="pp">Email: comic artist@gmail.com</p>
-                      <p className="pp">Phone: +961 
-70 677 374</p>
-                      <p className="pp">Address:Pigier Gemmayzeh 
-Andalusia Building  </p>
-                      
-<div class="flex-center">
-<a href="https://www.facebook.com/ivandebsartist/" target="_blank">
-<i class="fa fa-facebook fa-4x icon-3d"> </i></a>
-<a href="https://www.instagram.com/ivan.debs/" target="_blank">
-  <i class="fa fa-instagram fa-4x icon-3d"></i></a>
-  </div>
-                         
-                      {/* <div className="social">
+      {/* Footer */}
+      <section id="footer">
+        <div className="container">
+          <div className="row text-center text-xs-center text-sm-center text-md-center">
+            <div className="text-center col-xs-12 col-sm-4 col-md-4">
+
+              <Link to='/'><img href="/home" src={logoImage} className={'logo-image'} /></Link>
+              <p className="pp">Welcome to the illustrated imaginary world of Ivan Debs. Keep up to date with his tribal influenced style images.</p>
+
+            </div>
+            <div className=" text-center col-xs-12 col-sm-4 col-md-4">
+              <h2 className="N">Navigation</h2>
+              <ul className="list-unstyled quick-links">
+                <li>< Link to="/">Home</ Link><i className="fa fa-angle-double-right" /></li>
+                <li>< Link to="/about">About</ Link><i className="fa fa-angle-double-right" /></li>
+                <li> <  Link to="/gallery">Gallery</  Link><i className="fa fa-angle-double-right" /></li>
+                <li>< Link to="/events">Events</ Link><i className="fa fa-angle-double-right" /></li>
+                <li>< Link to="/contact">Contact</ Link><i className="fa fa-angle-double-right" /></li>
+              </ul>
+            </div>
+            <div className="text-center col-xs-12 col-sm-4 col-md-4 ">
+              <h2 className="N"> Contact Me</h2>
+              <p className="pp">E-mail : yvan-19@hotmail.com</p>
+              <p className="pp">Tel: +961 70677374</p>
+              <p className="pp">Address: Pigier Gemmayzeh Andalusia Building  </p>
+
+              <div class="flex-center">
+                <a href="https://www.facebook.com/ivandebsartist/" target="_blank">
+                  <i class="fa fa-facebook fa-4x icon-3d"> </i></a>
+                <a href="https://www.instagram.com/ivan.debs/" target="_blank">
+                  <i class="fa fa-instagram fa-4x icon-3d"></i></a>
+              </div>
+
+              {/* <div className="social">
                           <ul className="text-center  list-unstyled list-inline social text-center">
                           
                             <li className="list-inline-item"><a href="https://www.facebook.com/ivandebsartist/?epa=SEARCH_BOX();"><i className="fa fa-facebook" /></a></li>
                             <li className="list-inline-item"><a href="https://www.instagram.com/ivan.debs/?epa=SEARCH_BOX();"><i className="fa fa-instagram" /></a></li>
                           </ul>
                           </div> */}
-                        </div>
+            </div>
 
-                  </div>
-                  <hr className="h" /> 
+          </div>
+          <hr className="h" />
 
 
 
-                  <div className="row">
-                
-                    <div className="text-center col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                      <p><u><a href="https://www.nationaltransaction.com/"></a></u> </p>
-                      <p className="h6">© All right Reversed.<a className="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Ivan Debs</a></p>
-                    </div>
-                   
-                  </div>
-                </div>
-              </section>
+          <div className="row">
 
-              </Styles>
-      </div>
+            <div className="text-center col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+              <p><u><a href="https://www.nationaltransaction.com/"></a></u> </p>
+              <p className="h6">© All right Reversed.<a className="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Ivan Debs</a></p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </Styles>
+  </div>
   )
 
 }

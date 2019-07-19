@@ -36,6 +36,7 @@ const Styles = styled.div `
 .about p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 `
 
 

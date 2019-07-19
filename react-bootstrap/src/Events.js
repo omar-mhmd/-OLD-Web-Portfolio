@@ -1,20 +1,15 @@
-import React from 'react'
-import CardFront from './components/CardFront';
+import React from 'react';
+import Card1 from './components/Card';
 
 
 
 
 
-export const Events = () => (
+ const Events2 = () => (
 <div>
-   <div>
-           <CardFront/>
-           </div> 
-           <div>
-           <CardFront/>
-         
-        </div>
+  <Card1/>
         </div>
 
        
     )
+    export default Events2;
