@@ -133,6 +133,12 @@ class Pictures extends Component {
                         {this.renderImages()}
                     </MDBRow>
                 </div>
+<<<<<<< HEAD
+=======
+                {
+                    console.log('image', images[photoIndex])
+                }
+>>>>>>> 15f3dfa22fc00c9321c2dd28fb216ac9e23c0552
                 {isOpen && (
                     <Lightbox
                         mainSrc={images[photoIndex]}
